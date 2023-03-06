@@ -75,7 +75,7 @@ public class Homework1 {
             operation = scanner.next().charAt(0);
         } else {
             System.out.println("Вы допустили ошибку при вводе операции. Попробуйте еще раз.");
-            scanner.next();//рекурсия
+            scanner.next();
             operation = getOperation();
         }
         return operation;
